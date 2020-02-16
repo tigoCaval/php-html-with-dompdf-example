@@ -1,5 +1,5 @@
 # php-html-with-dompdf-example
-Exemplo: php, html com dompdf
+Exemplo: php, html com dompdf | para fins didáticos
 ### Exemplo
 - Definindo Cabeçalho
 ```php
@@ -12,7 +12,7 @@ $header = ['Nome','E-mail','Profissão','Setor','Situação','Sexo'];
           ['Américo','americo@mail.com','Advogado','Jurídico','empregado','Masculino']
     ]; 
 ```
-- Apresentação
+- Apresentação Exemplo(observação: de acordo com sua classe):
 ```php
    $user = new User();
    echo $user->html(50,$user->header,$user->attribute);
